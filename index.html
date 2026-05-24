@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Jamaica</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #dc2626 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            font-style: italic;
+        }
+        
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #1e3a8a;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #dc2626;
+            padding-bottom: 10px;
+        }
+        
+        .attractions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .attraction-card {
+            background: #f3f4f6;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #dc2626;
+        }
+        
+        .attraction-card h3 {
+            color: #1e3a8a;
+            margin-bottom: 10px;
+        }
+        
+        .facts {
+            background: #eff6ff;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #1e3a8a;
+        }
+        
+        .facts ul {
+            margin-left: 20px;
+        }
+        
+        .facts li {
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🇯🇲 Welcome to Jamaica</h1>
+        <p>"Out of Many, One People"</p>
+    </header>
+    
+    <main>
+        <section>
+            <h2>About Jamaica</h2>
+            <p>Jamaica is a vibrant Caribbean island nation known for its stunning natural beauty, rich culture, and warm, welcoming people. Located in the Caribbean Sea, Jamaica is the third-largest island in the Caribbean and home to over 2.7 million people.</p>
+            <p>The island is famous for its contributions to music, athletics, and cuisine, making it a must-visit destination for travelers from around the world.</p>
+        </section>
+        
+        <section>
+            <h2>Top Attractions</h2>
+            <div class="attractions">
+                <div class="attraction-card">
+                    <h3>🏖️ Beaches</h3>
+                    <p>Crystal-clear waters and pristine white sand beaches like Seven Mile Beach and Negril Beach.</p>
+                </div>
+                <div class="attraction-card">
+                    <h3>🎵 Reggae Music</h3>
+                    <p>The birthplace of reggae and the home of legends like Bob Marley.</p>
+                </div>
+                <div class="attraction-card">
+                    <h3>⛰️ Natural Beauty</h3>
+                    <p>Lush mountains, waterfalls like Dunn's River Falls, and tropical forests.</p>
+                </div>
+                <div class="attraction-card">
+                    <h3>🏃 Athletics</h3>
+                    <p>Home to world-class sprinters and track and field champions.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Fun Facts About Jamaica</h2>
+            <div class="facts">
+                <ul>
+                    <li>Jamaica is the world's largest producer of bauxite (aluminum ore)</li>
+                    <li>The island is home to the second-largest coral reef in the world</li>
+                    <li>Bob Marley, the reggae legend, was born in Jamaica in 1945</li>
+                    <li>Jamaica has won more Olympic medals per capita than any other country</li>
+                    <li>The island's official name means "Land of Wood and Water"</li>
+                    <li>Jamaican cuisine blends African, European, and Caribbean influences</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Welcome to Jamaica | Built with ❤️ for GitHub Pages</p>
+    </footer>
+</body>
+</html>
